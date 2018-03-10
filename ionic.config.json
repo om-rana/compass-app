@@ -1,0 +1,8 @@
+{
+  "name": "compassApp",
+  "app_id": "1d3d2614",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

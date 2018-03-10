@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title text-end>
+      Compass App
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content text-center>
+  <p>{{ directionDegree }}</p>
+  <img [style.transform]="'rotate(' + magneticHeading + 'deg)'" src="./assets/imgs/compass.png" alt="compassImage" />
+</ion-content>
